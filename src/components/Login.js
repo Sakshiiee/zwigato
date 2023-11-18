@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 export default function Login() {
   return (
-    <div style={{backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg")',backgroundSize:'cover',height: '90vh',filter:'blur(3px)'}}>
+    <div style={{backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg")',backgroundSize:'cover',height: '90vh'}}>
     <div className="background-image h-100" >
 
     

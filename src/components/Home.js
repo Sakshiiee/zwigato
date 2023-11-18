@@ -33,7 +33,7 @@ export default function Home() {
         setUserInput(e.target.value)
       }} /></center>
       <div className=' d-flex w-50 justify-content-around mx-auto mt-5'>
-        <button className='px-2  text-dark bg-primary rounded 'style={{fontFamily: 'cursive, sans-serif'}}onClick={() => {
+        <button className='px-2 text-dark bg-primary rounded 'style={{fontFamily: 'cursive, sans-serif'}}onClick={() => {
           uppercase()
         }}>Uppercase</button>
         <button className='px-2 text-dark bg-primary rounded'style={{fontFamily: 'cursive, sans-serif'}} onClick={() => {
@@ -42,7 +42,7 @@ export default function Home() {
         <button className='px-2 text-dark bg-primary rounded'style={{fontFamily: 'cursive, sans-serif'}} onClick={() => {
           cube()
         }}>Cube</button>
-        <button className='px-2 text-dark bg-primary rounded'style={{fontFamily: 'cursive, sans-serif'}} onClick={() => {
+        <button className='px-2 text-dark bg-primary rounded 'style={{fontFamily: 'cursive, sans-serif'}} onClick={() => {
           welcome()
         }}>Welcome</button>
         <button className='px-2 text-dark bg-primary rounded'style={{fontFamily: 'cursive, sans-serif'}} onClick={() => {
