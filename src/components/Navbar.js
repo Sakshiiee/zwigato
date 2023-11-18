@@ -11,19 +11,19 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link  btn border border-dark border border-2 active mx-2 px-2 text-dark bg-info rounded" style={{ fontFamily: 'cursive, sans-serif' }} aria-current="page" href="/">Home</a>
+              <a className=" buttonNavbar"  aria-current="page" href="/">Home</a>
             </li>
             
             <li className="nav-item">
-              <a className="nav-link btn border border-dark border border-2 active mx-2 px-2 text-dark  bg-info rounded" style={{ fontFamily: 'cursive, sans-serif' }} aria-current="page" href="/login">Login</a>
+              <a className="buttonNavbar" aria-current="page" href="/login">Login</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link btn border border-dark border border-2 mx-2 px-2 text-dark bg-info rounded" style={{ fontFamily: 'cursive, sans-serif' }} href="/signup">Signup</a>
+              <a className="buttonNavbar" href="/signup">Signup</a>
             </li>
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2 border border-dark border border-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className=" nav-link btn border border-dark border border-2 mx-2 px-2 text-dark bg-info rounded"style={{ fontFamily: 'cursive, sans-serif' }} type="submit">Search</button>
+            <button className=" buttonNavbar"  type="submit">Search</button>
           </form>
           
         </div>
