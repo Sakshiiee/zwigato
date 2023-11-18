@@ -25,13 +25,13 @@ export default function Signup() {
         </div>
         <div class="mb-3">
           <b>
-            <label for="exampleFormControlInput1" class="form-label">Mobile Number:</label>
+            <label for="exampleFormControlInput1" class="form-label">Email id:</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email" />
           </b>
         </div>
         <div class="mb-3">
           <b>
-            <label for="exampleFormControlTextarea1" class="form-label">OTP:</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Password:</label>
             <input type="password" class="form-control" id="exampleFormControlInput1" />
           </b>
         </div>
