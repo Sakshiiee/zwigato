@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 export default function Signup() {
   return (
-    <div style={{backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg")',backgroundSize:'cover',height: '90vh'}}>
+    <div style={{backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBBoWuxVILRpF93uu8NxMiL37-aUz_8IQ7sg&usqp=CAU")',backgroundSize:'cover',height: '100vh'}}>
     <div className=''>
       
       <div className=' container w-content  border border-dark mx-auto my-5 py-5 px-4 ' style={{ width: "350px", }}>
